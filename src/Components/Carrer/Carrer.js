@@ -83,7 +83,7 @@ const Carrer = () =>{
                 
             </div>
             <div className="btn-c">
-                    <a href="https://drive.google.com/file/d/1E8cUPuxlmkZokiAQzrs_frB3_hv0o1dQ/view?usp=sharing" download className="btn-link">
+                    <a href="https://drive.google.com/file/d/1z5qGTAHFaHmej-ZVwuVz0CqXr1eYFhWM/view?usp=sharing" download className="btn-link">
                         Get CV <i className="fa-solid fa-download"></i>
                     </a>
 
