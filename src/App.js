@@ -9,14 +9,14 @@ import Carrer from "./Components/Carrer/Carrer";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
-import Progress from "./Components/Progress/Progress";
+// import Progress from "./Components/Progress/Progress";
 import Theme from "./Components/Theme/Theme";
 
 function App() {
   return (
     <>
     <Theme/>
-    <Progress/>
+    {/* <Progress/> */}
     <div className="container">
       <Navigation/>
       <Home/>
