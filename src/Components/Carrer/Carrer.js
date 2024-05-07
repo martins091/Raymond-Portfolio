@@ -1,6 +1,5 @@
 import React from "react";
 import "./Carrer.css";
-import Cv from "../../assets/cv/CV-Justus-Onuh.pdf";
 
 
 
@@ -10,24 +9,34 @@ const Carrer = () =>{
         {
             title: "Front-end Developer",
             name: "Software",
-            year: "2019-2020"
+            year: "2020-2022"
         },
         {
-            title: "Front-end Developer, UI/UX Designer",
+            title: "Backend Developer",
             name: "Software",
-            year: "2019-2020"
+            year: "2021-2023"
+        },
+        {
+            title: "Wordpress Developer",
+            name: "Software",
+            year: "2022-2024"
         }
     ]
     const educations = [
         {
-            title: "Bigard Memorial Seminary Enugu",
-            name: "Philosophy",
-            year: "2015-2019"
+            title: "National Open University of Nigeria",
+            name: "Computer Science",
+            year: "2021-2025"
         },
         {
-            title: "Human Resources Development Center, Nsukka",
+            title: "All-Tech Academy Surulere Lagos Nigeria",
             name: "Computer Programing",
-            year: "2019-2020"
+            year: "2020-2021"
+        },
+        {
+            title: "alx software engineer ",
+            name: "Computer Programing",
+            year: "2023-2025"
         }
     ]
     return (
@@ -74,7 +83,7 @@ const Carrer = () =>{
                 
             </div>
             <div className="btn-c">
-                    <a href={Cv} download className="btn-link">
+                    <a href="https://drive.google.com/file/d/1E8cUPuxlmkZokiAQzrs_frB3_hv0o1dQ/view?usp=sharing" download className="btn-link">
                         Get CV <i className="fa-solid fa-download"></i>
                     </a>
 

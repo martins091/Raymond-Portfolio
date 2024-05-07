@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Izunwaonu from "../../assets/images/izunwaonu.jpg";
+import martins from "../../assets/images/martins.svg";
 
 
 const Home = ()=> {
@@ -8,10 +8,10 @@ const Home = ()=> {
        <section id="home">
         <div className="home-text" data-aos="fade-down">
             <strong>Hello, I'm</strong>
-            <h1>Justus Izuchukwu Onuh</h1>
-            <p> I am a seasoned Front-End Developer and UI/UX Designer with over five years of experience, 
+            <h1>Martins Ejiofor</h1>
+            <p> I am a seasoned FullStack Developer with over three years of experience, 
                 dedicated to crafting seamless and visually captivating digital experiences. 
-                Proficient in HTML, CSS, JavaScript, React.js, etc. 
+                Proficient in Frontend Development, Backend Development, Mern-Stack, Wordpress  etc. 
                 I excel in transforming innovative design concepts into interactive and 
                 user-friendly interfaces. My deep understanding of user-centered design 
                 principles and my ability to bridge the gap between aesthetics and functionality 
@@ -25,21 +25,21 @@ const Home = ()=> {
         </div>
         <div className="home-img" data-aos="fade-up">
             <div className="img-box">
-                <img src={Izunwaonu} alt="Izunwaonu"/>
-                <h2>Justus Izuchukwu Onuh <br/> <span>IZUNWAONU</span> <br/><span> Front End Developer </span></h2>
+                <img src={martins} alt="martins"/>
+                <h2>Martins Ejiofor <br/> <br/><span> FullStack Developer </span></h2>
                 <div className="social">
-                    <a href="https://www.facebook.com/izunwonu">
+                    <a href="https://www.facebook.com/profile.php?id=100086715874671">
                     <i className="fa-brands fa-facebook"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/onuh-justus-izuchukwu-9340a121b/">
+                    <a href="https://www.linkedin.com/in/martins-ejiofor-a9b32b26a/">
                     <i className="fa-brands fa-linkedin"></i>
                     </a>
-                    <a href="https://github.com/izunwaonu">
+                    <a href="https://github.com/martins091">
                     <i className="fa-brands fa-github"></i>
                     </a>
 
                 </div>
-                <a href="mailto:admin@izunwaonu.com.ng" className="hire-me">Hire me</a>
+                <a href="mailto:agbomartinsejifor@gmail.com" className="hire-me">Hire me</a>
 
             </div>
             

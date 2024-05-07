@@ -1,9 +1,5 @@
 Portfolio Website
 
-🌐 Website Link: https://portfolio.izunwaonu.com.ng/
-
-📁 Repository Link: https://github.com/izunwaonu/Portfolio-Website/
-
 Description:
 
 Welcome to my online portfolio! 🎉 This repository houses the code and content for my personal portfolio website, where I showcase a collection of my creative projects, achievements, and passions.

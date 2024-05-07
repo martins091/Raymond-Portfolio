@@ -4,9 +4,9 @@ import React from 'react';
 
 
 import "./Projects.css";
-import Project1 from "../../assets/images/project1.jpg";
-import Project2 from "../../assets/images/project2.jpeg";
-import Project3 from "../../assets/images/project3.jpg";
+import Project1 from "../../assets/images/project1.jpeg";
+import Project2 from "../../assets/images/project2.jpg";
+import Project3 from "../../assets/images/project3.jpeg";
 import Project4 from "../../assets/images/project4.jpeg";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -27,25 +27,26 @@ const Projects = () =>{
     const data = [
         {
             src: Project1,
-            url: "#!"
+            url: "https://app.finezcv.com/"
         },
         {
             src: Project2,
-            url: "#!"
+            url: "https://mtn-sim-app-git-martins-babalolad-tezzas-projects.vercel.app/"
         },
         {
             src: Project3,
-            url: "#!"
+            url: "https://mern-blog-rja7.onrender.com"
         },
         {
             src: Project4,
-            url: "#!"
+            url: "https://realestate-app-ymhb.onrender.com"
         },
     ]
     return(
         <section id="projects">
             <div className="project-heading">
                 <h3>Recent Projects</h3>
+                <p>*Some are group project while some are personal project, click on it to take you to the website*</p>
                 
             </div>
 
@@ -98,7 +99,7 @@ const Projects = () =>{
 
 
             <div className="github-link">
-                <a href="https://github.com/izunwaonu" className="btn-link">
+                <a href="https://github.com/martins091" className="btn-link">
                 My Github <i className="fa-brands fa-github"></i>
                 </a>
 

@@ -1,6 +1,5 @@
 import React from "react";
 import "./Summery.css";
-import Cv from "../../assets/cv/CV-Justus-Onuh.pdf";
 
 
 const Summery = ()=>{
@@ -18,7 +17,7 @@ const Summery = ()=>{
                 <h2>SEO Basics</h2>
                 <h2>Communication</h2>
                 <h2>Collaboration</h2> */}
-                <a href={Cv} download className="btn-link"> Get CV <i className="fa-solid fa-download"></i></a>
+                <a href="https://drive.google.com/file/d/1E8cUPuxlmkZokiAQzrs_frB3_hv0o1dQ/view?usp=sharing" download className="btn-link"> Get CV <i className="fa-solid fa-download"></i></a>
 
             </div>
             <div className="summery-details" data-aos="fade-left">
