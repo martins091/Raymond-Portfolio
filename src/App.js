@@ -20,7 +20,7 @@ function App() {
     <div className="container">
       <Navigation/>
       <Home/>
-      <Summery/>
+      {/* <Summery/>
       <Languages/>
       <Process/>
       <Projects/>
@@ -28,7 +28,7 @@ function App() {
       <About/>
       <Contact />
       
-      <Footer/>
+      <Footer/> */}
       
     </div>
     </>

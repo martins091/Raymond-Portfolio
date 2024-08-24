@@ -7,11 +7,11 @@ const Theme = ()=>{
 
     useEffect (()=>{
         if (dark){
-            document.documentElement.style.setProperty('--bgColor', '#162052');
+            document.documentElement.style.setProperty('--bgColor', '#0d32e8');
             document.documentElement.style.setProperty('--whiteColor', '#fff');
         }else{
             document.documentElement.style.setProperty('--bgColor', '#fff');
-            document.documentElement.style.setProperty('--whiteColor', '#111');
+            document.documentElement.style.setProperty('--whiteColor', '#0d32e8');
         }
 
     }, [dark])
