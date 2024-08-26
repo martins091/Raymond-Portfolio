@@ -36,7 +36,7 @@ const Home = () => {
             {/* <a href="https://www.facebook.com/profile.php?id=100086715874671">
               <i className="fa-brands fa-facebook"></i>
             </a> */}
-            <a href="https://www.linkedin.com/in/martins-ejiofor-a9b32b26a/">
+            <a href="https://www.linkedin.com/in/raymond-okoh/">
               <i className="fa-brands fa-linkedin"></i>
             </a>
             {/* <a href="https://github.com/martins091">

@@ -7,18 +7,19 @@ const Process = () =>{
     const data = [
         {
             id: "01",
-            title: "Cross-Platform Mobile App Development (Android and iOS)",
-            contents: ["Build versatile mobile applications compatible with both Android and iOS platforms, reaching a wider audience and enhancing your brand's mobile presence."] 
+            title: "Product Management",
+            contents: ["Product Development: Led the development and mentorship of students, from concept to delivery, resulting in desirable outcomes, e.g.,25% increase in growth of the companies. Product Strategy: Defined and executed product vision, mission, and roadmap, aligning with business goals and objectives"] 
         },
+        
         {
             id: "02",
-            title: "E-commerce Website Development and Integration",
-            contents: ["Develop feature-rich e-commerce platforms that enable secure online transactions, product showcasing, and seamless integration with payment gateways for a smooth shopping experience."] 
+            title: "Product Design Facilitation & Training",
+            contents: ["Design Thinking Workshops: Facilitated design thinking workshops and training sessions for students at Leinad Studio. Mentorship & Coaching: Mentored and guided students in designing and prototyping products, from ideation to testing"] 
         },
         {
             id: "03",
-            title: "Custom School or Educational Institution Websites",
-            contents: ["Draft tailored websites for educational institutions, providing a platform for efficient communication, course management, event promotion, and student engagement"] 
+            title: "UI/UX DESIGNER",
+            contents: ["Implemented a design approach to improve the user experience through user-centered design principles. Executed the creation of comprehensive wireframes, navigation flows, and visually captivating design mockups; facilitated user testing sessions to gather valuable feedback, resulting in a 25% improvement in user satisfaction."] 
         }
     ]
     return(

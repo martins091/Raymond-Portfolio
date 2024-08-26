@@ -4,7 +4,7 @@ import React from 'react';
 
 
 import "./Projects.css";
-import Project1 from "../../assets/images/project1.jpeg";
+import Project1 from "../../assets/images/project1.jpg";
 import Project2 from "../../assets/images/project2.jpg";
 import Project3 from "../../assets/images/project3.jpeg";
 import Project4 from "../../assets/images/project4.jpeg";
@@ -27,20 +27,17 @@ const Projects = () =>{
     const data = [
         {
             src: Project1,
-            url: "https://app.finezcv.com/"
+            url: "#"
         },
         {
             src: Project2,
-            url: "https://mtn-sim-app-git-martins-babalolad-tezzas-projects.vercel.app/"
+            url: "#"
         },
         {
             src: Project3,
-            url: "https://mern-blog-rja7.onrender.com"
+            url: "#"
         },
-        {
-            src: Project4,
-            url: "https://realestate-app-ymhb.onrender.com"
-        },
+     
     ]
     return(
         <section id="projects">
@@ -99,8 +96,8 @@ const Projects = () =>{
 
 
             <div className="github-link">
-                <a href="https://github.com/martins091" className="btn-link">
-                My Github <i className="fa-brands fa-github"></i>
+                <a href="https://drive.google.com/file/d/1-LbqMHSsi3xqgO1Bz732r7J4lqwVN3rH/view?usp=sharing" className="btn-link">
+                My Resume
                 </a>
 
             </div>

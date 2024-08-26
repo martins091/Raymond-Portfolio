@@ -8,7 +8,7 @@ const Contact = () =>{
             <strong>What's Next</strong>
             <h3> Let's Work Together!</h3>
             <p> Let's collaborate and create something exceptional together.</p>
-            <a href="mailto:agbomartinsejiofor@gmail.com" className=" btn-link contact-btn">
+            <a href="mailto:raymondokoh18@gmail.com " className=" btn-link contact-btn">
                 Write me an email <i className="fa-solid fa-envelope"></i>
 
             </a>

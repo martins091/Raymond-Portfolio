@@ -20,15 +20,14 @@ function App() {
     <div className="container">
       <Navigation/>
       <Home/>
-      {/* <Summery/>
-      <Languages/>
+      <Summery/>
+      {/* <Languages/> */}
       <Process/>
       <Projects/>
       <Carrer/>
       <About/>
       <Contact />
-      
-      <Footer/> */}
+      <Footer/> 
       
     </div>
     </>

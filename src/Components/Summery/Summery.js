@@ -1,41 +1,41 @@
 import React from "react";
 import "./Summery.css";
 
-
-const Summery = ()=>{
-    return(
-        <section id="summery" data-aos="fade-right">
-            <div className="summery-heading">
-                <strong>My Skills</strong>
-                <h2>HTML/CSS</h2>
-                <h2>JavaScript</h2>
-                <h2>Responsive Design</h2>
-                <h2>Version Control/Git</h2>
-                <h2>Web Performance Optimization</h2>
-                {/* <h2>Cross-Browser Compatibility</h2>
-                <h2>Testing and Debugging</h2>
-                <h2>SEO Basics</h2>
-                <h2>Communication</h2>
-                <h2>Collaboration</h2> */}
-                <a href="https://drive.google.com/file/d/1Y4BtYWGMhu-RpOUJI6coBc0M1PjgXzlO/view?usp=sharing" download className="btn-link"> Get CV <i className="fa-solid fa-download"></i></a>
-
-            </div>
-            <div className="summery-details" data-aos="fade-left">
-                <p>Proficiency in creating structured, semantic HTML and styling it using CSS for responsive and visually appealing layouts.</p>
-                <p>Strong understanding of JavaScript and its libraries/frameworks (e.g., React.js, Vue.js) to create dynamic and interactive user interfaces.</p>
-                <p>Ability to design and develop websites and applications that function smoothly across various devices and screen sizes.</p>
-                <p>Skill in creating intuitive and visually appealing user interfaces, considering user experience and usability principles.</p>
-                {/* <p>Familiarity with version control systems like Git to collaborate effectively with other team members and manage codebase.</p>
-                <p>Knowledge of techniques to optimize website speed and performance, including minification, lazy loading, and caching.</p>
-                <p>Strong communication skills and ability to work collaboratively with designers, developers, and other stakeholders.</p>
-                <p>Proficiency in testing, identifying, and fixing bugs and issues to ensure a seamless user experience.</p>
-                <p>Understanding of basic SEO principles and techniques to optimize web content for search engines.</p>
-                <p>Keeping up with industry trends, new tools, and technologies to continuously improve skills and stay relevant.</p>
-                <p>Clearly articulating design and development concepts and decisions to team members and clients.</p> */}
-            </div>
-
-        </section>
-
-    )
-}
+const Summery = () => {
+  return (
+    <section id="summery" data-aos="fade-right">
+      <div className="summery-heading">
+        <strong>My Skills</strong>
+        <h2>Product Designer</h2>
+        <h2>Product Manager</h2>
+        <h2>UI/UX Designer</h2>
+        <h2>Communication</h2>
+        <h2>Collaboration</h2>
+        <a
+          href="https://drive.google.com/file/d/1-LbqMHSsi3xqgO1Bz732r7J4lqwVN3rH/view?usp=sharing"
+          download
+          className="btn-link"
+        >
+          {" "}
+          Get CV <i className="fa-solid fa-download"></i>
+        </a>
+      </div>
+      <div className="summery-details" data-aos="fade-left">
+        <p>
+          Figma, InDesign, Miro, Trello, Asana, Adobe illustrator, Adobe
+          Photoshop, Sketch, Google Form, Go-to-market strategy, product
+          promotion, competitive analysis, thinking skills,B2C, B2B, B2C
+          marketing strategy, tech training, user experience, mobile user
+          experience, customer relationship management(crm), user interface,
+          training delivery, (KPI) key performance indicator, product Life
+          cycle. Product Life, product design, product launch, wireframing, user
+          centered design, user stories, attention to details, design thinking
+          and facilitation, team coordination, product roadmapping and
+          prioritization, cross-functional team collaboration, mentorship and
+          coaching, problem solving
+        </p>
+      </div>
+    </section>
+  );
+};
 export default Summery;
