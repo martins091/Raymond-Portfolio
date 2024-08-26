@@ -14,7 +14,7 @@ const Carrer = () =>{
         {
             title: "Product Management.",
             name: "Senior",
-            year: "2022-2024"
+            year: "2022- Present"
         },
 
     ]
