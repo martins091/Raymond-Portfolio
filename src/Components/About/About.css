@@ -22,7 +22,7 @@
     width: 475px;
 }
 .about-details p {
-    color: var(--grayColor);
+    color: #0a0c53;
     margin: 10px 0;
 }
 @media (max-width: 740px) {

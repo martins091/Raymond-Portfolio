@@ -7,11 +7,11 @@ const Theme = ()=>{
 
     useEffect (()=>{
         if (dark){
-            document.documentElement.style.setProperty('--bgColor', '#162052');
-            document.documentElement.style.setProperty('--whiteColor', '#fff');
+            document.documentElement.style.setProperty('--bgColor', '#0b102d');
+            document.documentElement.style.setProperty('--whiteColor', '#faf4f4');
         }else{
-            document.documentElement.style.setProperty('--bgColor', '#fff');
-            document.documentElement.style.setProperty('--whiteColor', '#111');
+            document.documentElement.style.setProperty('--bgColor', '#faf4f4');
+            document.documentElement.style.setProperty('--whiteColor', '#0a0c53');
         }
 
     }, [dark])
@@ -21,7 +21,7 @@ const Theme = ()=>{
             {
                 dark
                 ?<i className="fa-solid fa-sun" onClick={()=> setDark(false)}></i>
-                : <i className="fa-solid fa-moon" onClick={()=> setDark(true)}> </i>
+                : <i className="fa-solid fa-moon" onClick={()=> setDark(false)}> </i>
             } 
 
         </div>

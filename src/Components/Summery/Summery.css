@@ -28,7 +28,7 @@
     padding: 15px 20px;
 }
 .summery-details p{
-    color: var(--grayColor);
+    color: #0a0c53;
 }
 @media (max-width:865px) {
     #summery{
