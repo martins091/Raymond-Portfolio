@@ -6,9 +6,8 @@ const Summery = () => {
     <section id="summery" data-aos="fade-right">
       <div className="summery-heading">
         <strong>My Skills</strong>
-        <h2>Product Designer</h2>
-        <h2>Product Manager</h2>
-        <h2>UI/UX Designer</h2>
+        <h2>Product Design</h2>
+        <h2>Product Management</h2>
         <h2>Communication</h2>
         <h2>Collaboration</h2>
         <a

@@ -21,7 +21,7 @@ const Theme = ()=>{
             {
                 dark
                 ?<i className="fa-solid fa-sun" onClick={()=> setDark(false)}></i>
-                : <i className="fa-solid fa-moon" onClick={()=> setDark(false)}> </i>
+                : <i className="fa-solid fa-moon" onClick={()=> setDark(true)}> </i>
             } 
 
         </div>

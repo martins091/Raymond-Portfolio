@@ -7,12 +7,12 @@ const Carrer = () =>{
 
     const carrers = [
         {
-            title: "Product Manager",
+            title: "Product Design",
             name: "Senior",
             year: "2020-2022"
         },
         {
-            title: "Product Designer",
+            title: "Product Management.",
             name: "Senior",
             year: "2022-2024"
         },
@@ -27,7 +27,7 @@ const Carrer = () =>{
         {
             title: "Academic project",
             name: "Isolation and detection of genetic variabilityg",
-            year: "2020-2022"
+            year: "2023-2024"
         },
     ]
     return (
