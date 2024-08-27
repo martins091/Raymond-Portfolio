@@ -9,12 +9,12 @@ const Carrer = () =>{
         {
             title: "Product Design",
             name: "Senior",
-            year: "2020-2022"
+            year: "2022-Present"
         },
         {
             title: "Product Management.",
             name: "Senior",
-            year: "2022- Present"
+            year: "2020-2022"
         },
 
     ]
